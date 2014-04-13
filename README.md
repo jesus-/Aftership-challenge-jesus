@@ -1,5 +1,8 @@
-# Get Tracking info from Courier
+# aftership-challenge
 
+Join us if you can!
+
+## Getting Started
 The goal of this challenge is to get the tracking information from the courier's system.
 
 There are 3 tests:
@@ -10,7 +13,6 @@ www.hongkongpost.com: CP889331175HK
 www.dpduk.co.uk: 15502370264989N
 
 ```
-
 
 ## The Output Format
 
@@ -48,3 +50,12 @@ Ideally your solution is **easily extensible** as we add additional types of tes
 ## Problem?
 Contact us at jobs AT aftership.com
 
+
+
+## Release History
+* 2014-04-12 v1.0.1 Added Grunt
+* 2014-04-12 v1.0.0 First Release
+
+## License
+Copyright (c) 2014 AfterShip  
+Licensed under the MIT license.

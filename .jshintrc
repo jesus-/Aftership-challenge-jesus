@@ -1,17 +1,14 @@
 {
   "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "latedef": "nofunc",
   "newcap": true,
   "noarg": true,
-  "noempty": true,
-  "nonew": true,
-  "quotmark": "single",
-  "regexp": true,
-  "trailing": true,
-
+  "sub": true,
+  "undef": true,
+  "unused": true,
   "boss": true,
   "eqnull": true,
-  "expr": true,
-
-  "browser": true,
-  "jquery": true
+  "node": true
 }

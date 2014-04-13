@@ -1,37 +1,43 @@
 {
 	"name": "aftership-challenge",
-	"version": "1.0.0",
-	"private": true,
-	"description": "Get Tracking info from Courier",
-	"main": "./lib/index",
-	"engines": {
-		"node": ">=0.8"
+	"description": "Join us if you can!",
+	"version": "1.0.1",
+	"homepage": "https://github.com/AfterShip/aftership-challenge",
+	"author": {
+		"name": "AfterShip",
+		"email": "jobs@aftership.com",
+		"url": "https://www.aftership.com/jobs"
 	},
-	"directories": {
-		"lib": "./lib"
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:AfterShip/aftership-challenge.git"
+	},
+	"bugs": {
+		"url": "https://github.com/AfterShip/aftership-challenge/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/AfterShip/aftership-challenge/blob/master/LICENSE-MIT"
+		}
+	],
+	"main": "lib/aftership-challenge",
+	"engines": {
+		"node": ">= 0.8.0"
 	},
 	"scripts": {
 		"test": "mocha --recursive -R spec"
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/aftership/challenge"
-	},
-	"bugs": {
-		"url": "https://github.com/aftership/challenge/issues"
-	},
 	"dependencies": {
-		"mocha": "latest",
-		"underscore": "latest",
-		"should": "latest"
+		"underscore": "latest"
 	},
 	"devDependencies": {
+		"grunt-contrib-jshint": "~0.6.4",
+		"grunt-mocha": "~0.4.7",
+		"grunt-contrib-watch": "~0.5.3",
+		"grunt": "~0.4.4",
 		"mocha": "latest",
 		"should": "latest"
 	},
-	"keywords": [
-		"courier"
-	],
-	"author": "AfterShip",
-	"license": "MIT"
+	"keywords": []
 }
