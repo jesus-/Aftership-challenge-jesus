@@ -37,3 +37,6 @@ $RECYCLE.BIN/
 !.nodemonignore
 
 npm-debug.log
+
+#dummy file
+dummy.js
