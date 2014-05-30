@@ -21,7 +21,7 @@
     "url": "https://github.com/aftership/challenge/issues"
   },
   "dependencies": {
-    "jsdom": "^0.10.5",
+    "httpsync": "0.0.8",
     "mocha": "latest",
     "should": "latest",
     "underscore": "latest"
