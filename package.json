@@ -21,6 +21,8 @@
     "url": "https://github.com/aftership/challenge/issues"
   },
   "dependencies": {
+    "cheerio": "^0.16.0",
+    "country-data": "0.0.13",
     "httpsync": "0.0.8",
     "mocha": "latest",
     "should": "latest",
